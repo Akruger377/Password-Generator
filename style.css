@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas', sans-serif;
+    user-select: none;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131213;
+}
+
+.inputBox {
+    position: relative;
+    width: 450px;
+}
+
+.inputBox h2 {
+    font-size: 38px;
+    color: #5f7de2;
+    text-shadow: 1px 1px #002fff;
+}
+
+::placeholder{
+    color: #002fff;
+}
+
+.inputBox input ::placeholder {
+    letter-spacing: 0;
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    color: #7593f5;
+    background-color: #96f0f0;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+
+}
+
+.inputBox #btn:active {
+    background-color: #0ad8d8;
+    transform:scale(.98);
+
+}
